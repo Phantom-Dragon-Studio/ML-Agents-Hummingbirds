@@ -1,0 +1,46 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1593394798",
+        "python_version": "3.7.7 (default, May  6 2020, 11:45:54) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\casey\\Anaconda3\\envs\\ml-agents-1.0.3\\Scripts\\mlagents-learn hummingbird.yaml --run-id hb_01",
+        "mlagents_version": "0.17.0",
+        "mlagents_envs_version": "0.17.0",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "2.2.0",
+        "end_time_seconds": "1593394841"
+    },
+    "total": 42.9526749,
+    "count": 1,
+    "self": 0.17506900000000059,
+    "children": {
+        "run_training.setup": {
+            "total": 0.015553099999999986,
+            "count": 1,
+            "self": 0.015553099999999986
+        },
+        "TrainerController.start_learning": {
+            "total": 42.7620528,
+            "count": 1,
+            "self": 0.0003625999999954388,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 42.7613946,
+                    "count": 1,
+                    "self": 42.7613946
+                },
+                "trainer_threads": {
+                    "total": 9.000000034120603e-07,
+                    "count": 1,
+                    "self": 9.000000034120603e-07
+                },
+                "TrainerController._save_model": {
+                    "total": 0.00029469999999776064,
+                    "count": 1,
+                    "self": 0.00029469999999776064
+                }
+            }
+        }
+    }
+}
